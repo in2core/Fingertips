@@ -9,6 +9,6 @@ let package = Package(
         .library(name: "Fingertips", targets: ["Fingertips"]),
     ],
     targets: [
-        .target(name: "Fingertips", publicHeadersPath: ""),
+        .target(name: "Fingertips", path: "Sources", publicHeadersPath: ""),
     ]
 )
